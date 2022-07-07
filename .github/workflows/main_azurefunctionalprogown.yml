@@ -50,4 +50,4 @@ jobs:
           app-name: 'azureFunctionalProgown'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A758CDC9394E4C949C94E9E64194DA97 }}
-          package: '*.jar'
+          package: '*.war'
