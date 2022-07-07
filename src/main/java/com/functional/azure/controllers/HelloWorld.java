@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorld {
 
-    @GetMapping("/hello")
+    @RequestMapping("/hello")
     public String getHello() {
 
         return "YOu are calling hellow world function in java hello deployed in azure";
