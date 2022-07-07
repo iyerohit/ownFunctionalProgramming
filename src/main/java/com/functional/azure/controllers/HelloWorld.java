@@ -12,7 +12,7 @@ public class HelloWorld {
         return "YOu are calling hellow world function in java hello deployed in azure";
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/world")
     public String getNormal() {
 
         return "YOu are calling default function in java deployed in azure";
