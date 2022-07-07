@@ -1,6 +1,5 @@
 package com.functional.azure.controllers;
 
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,7 +18,6 @@ public class HelloWorld {
         return "YOu are calling default function in java deployed in azure";
     }
 
-    
     @RequestMapping("/message")
     public String getMessage() {
 
